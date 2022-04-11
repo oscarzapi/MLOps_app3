@@ -7,8 +7,8 @@ function Navigator() {
         <nav>
             <h2>Company Y</h2>
             <ul className="nvlink">
-                <li>Home</li>
-                <li>Batch Processing</li>
+                <Link to="/"><li>Home</li></Link>
+                <Link to="/batchProcessing"><li>Batch Processing</li></Link>
             </ul>
         </nav>
     </div>
